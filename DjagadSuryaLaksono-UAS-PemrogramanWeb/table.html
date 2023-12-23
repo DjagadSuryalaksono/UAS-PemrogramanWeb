@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Tabel</title>
+    <link rel="stylesheet" href="/src/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/src/css/main.css">
+    <style>
+        .container {
+    display: flex;
+}
+
+.frame {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.left-frame {
+    background-color: #f2f2f2;
+}
+
+.right-frame {
+    background-color: #e6e6e6;
+}
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="/asset/logo-unpam-300x291.png" alt="#">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="profil.html">Profil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="table.html">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <h1>Daftar Kontak</h1>
+
+<table border="1">
+    <tr>
+        <th>Nama</th>
+        <th>Email</th>
+        <th>Nomor Telepon</th>
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>john@example.com</td>
+        <td>123-456-7890</td>
+    </tr>
+    <tr>
+        <td>Jane Smith</td>
+        <td>jane@example.com</td>
+        <td>987-654-3210</td>
+    </tr>
+    <tr>
+        <td>Alice Johnson</td>
+        <td>alice@example.com</td>
+        <td>555-123-4567</td>
+    </tr>
+</table>
+
+<div class="container">
+    <div class="frame left-frame">
+        <h2>Teman Favorit</h2>
+        <p>John Doe</p>
+    </div>
+    <div class="frame right-frame">
+        <h2>Teman Terburuk</h2>
+        <p>Alice Johnson</p>
+    </div>
+</div>
+    
+</body>
+</html>
